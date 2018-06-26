@@ -1,8 +1,8 @@
-package dataStructure;
+package algorithm.sort;
 
 /**
  * Created by Vincent on 2018/6/25.
- * 堆是用于实现优先队列的数据结构，
+ * 堆可用于实现优先队列，
  */
 public class HeapSort {
     public static void sort(int[] nums, boolean big) {
