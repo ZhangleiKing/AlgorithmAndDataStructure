@@ -1,6 +1,8 @@
 package algorithm;
 
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Hashtable;
 import java.util.List;
 
 /**
@@ -58,13 +60,12 @@ public class Permutation {
     }
 
     public static void main(String[] args) {
-        char[] chars = new char[]{'a', 'a', 'b'};
-        List<List<Character>> ret = permutation(chars);
-        for(List<Character> list : ret) {
-            for(Character c : list) {
-                System.out.print(c + " ");
-            }
-            System.out.println();
-        }
+        int n=10;
+        n |= n >>> 1;
+        n |= n >>> 2;
+        n |= n >>> 4;
+        n |= n >>> 8;
+        n |= n >>> 16;
+        System.out.println(n);
     }
 }
