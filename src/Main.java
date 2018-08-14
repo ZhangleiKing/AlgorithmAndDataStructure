@@ -1,7 +1,4 @@
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.Comparator;
 
 public class Main {
     public ArrayList<Integer> FindNumbersWithSum(int[] array, int sum) {
